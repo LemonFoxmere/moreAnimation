@@ -1,0 +1,28 @@
+body{
+    background-color: #1d2021;
+    overflow: hidden;
+}
+
+.grid-block{
+    width:10px;
+    height:10px;
+    background-color:rgb(255, 0, 0);
+    margin:0px
+}
+
+.grid-row{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center
+}
+
+.git{
+    opacity:0.2;
+    transition: all 230ms cubic-bezier(0.260, 0.050, 0.250, 1.000); /* custom */
+}
+
+.git:hover{
+    opacity:1;
+    transition: all 230ms cubic-bezier(0.260, 0.050, 0.250, 1.000); /* custom */
+}
