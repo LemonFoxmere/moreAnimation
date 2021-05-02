@@ -28,7 +28,7 @@ window.onload = () => {
         easing:'easeOutQuad',
         duration:1000
     }, '+=1000').add({
-        rotate: anime.stagger([0,90],{grid: [10,10], from:'center', direction:'reverse'}),
+        rotate: anime.stagger([0,90],{grid: [10,10], from:'center'}),
         delay: anime.stagger(50,{grid: [10,10], from:'center'}),
         backgroundColor: '#13f7e8',
         easing:'easeOutQuart',
@@ -36,7 +36,7 @@ window.onload = () => {
     }, '+=1000').add({
         rotate: 180,
         backgroundColor: '#aaa',
-        delay: anime.stagger(50,{grid: [10,10], from:'center'}),
+        delay: anime.stagger(50,{grid: [10,10], from:'center', direction:'reverse'}),
         easing:'easeOutQuart',
         duration:1000
     }, '+=1000').add({
